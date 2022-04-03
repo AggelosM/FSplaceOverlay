@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         r/PlaceTux Overlay
+// @name         FS Overlay
 // @namespace    https://github.com/r-PlaceTux/place_tux
 // @version      1.0.8
 // @description  FLOSS forever!
@@ -19,7 +19,7 @@ if (window.top !== window.self) {
         .shadowRoot.children[0].appendChild(
           (function () {
             const i = document.createElement("img");
-            i.src = "https://r-placetux.github.io/place_tux/tux_overlay.png";
+            i.src = "https://raw.githubusercontent.com/AggelosM/FSplaceOverlay/main/imageoverlay.png";
             i.style =
               "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
             console.log(i);
@@ -38,7 +38,7 @@ if (window.top !== window.self) {
         .shadowRoot.children[0].appendChild(
           (function () {
             const j = document.createElement("img");
-            j.src = "https://github.com/Atkion/placeCosmereOverlay/raw/master/template.png";
+            j.src = "https://raw.githubusercontent.com/AggelosM/FSplaceOverlay/main/imageoverlay.png";
             j.style =
               "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
             console.log(j);
